@@ -45,6 +45,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.sub-title{
+ font-family: ${DefaultStyle.subTitleFont};
+}
+
 .bg-primary {
   background-color: ${DefaultStyle.primary};
 }

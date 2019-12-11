@@ -37,4 +37,4 @@ export const About: FC<IProps> = (props: any) => {
             </div>
         </div>
     </section>
-}
+};
