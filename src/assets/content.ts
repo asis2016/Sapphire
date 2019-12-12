@@ -11,7 +11,6 @@ export const menu = [
     {id: 2, faIcon: 'fas fa-university', url: 'education', title: 'Education'},
     {id: 3, faIcon: 'fas fa-drafting-compass', url: 'skill', title: 'Skills'},
     {id: 4, faIcon: 'fas fa-paint-brush', url: 'project', title: 'Projects'},
-    {id: 5, faIcon: 'fas fa-swimmer', url: 'interest', title: 'Interest'}
 ];
 
 export const skillList = [

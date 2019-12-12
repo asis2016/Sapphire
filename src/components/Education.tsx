@@ -20,7 +20,7 @@ export const Education: FC<IProps> = (props) => {
                         <p>GPA: {item.gpa}</p>
                     </div>
                     <div className="resume-date text-md-right">
-                        <span className="text-primary">{item.startDate} - {item.endDate}</span>
+                        <p><i className="far fa-calendar-alt pr-2"></i> {item.startDate} - {item.endDate}</p>
                     </div>
                 </div>
             )}

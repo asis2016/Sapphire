@@ -54,10 +54,10 @@ const App: FC<IProps> = (props) => {
                         <Project title={"Projects"} subTitle={"Nam libero tempore, cum soluta nobis est eligendi."}/>
                     </Route>
 
+                    {/* About */}
                     <Route path="/">
-                        {/* About */}
                         <About firstName={"Sapphire"} lastName={"Fowler"}
-                               address={"123 Berry Street · Londo, L 9902 · (+40 01) xxx-xxxx"}
+                               address={"123 Berry Street, 9002 London · (+40 01) xxx-xxxx"}
                                email={"sapphire.fowler@msn.com"}
                                description={`Morbi nec dui augue. Fusce arcu dui, malesuada eget consequat et, dignissim sed massa. 
                        Mauris a purus sem. Nam venenatis metus id mauris facilisis, sed bibendum arcu facilisis. Cras dapibus, 

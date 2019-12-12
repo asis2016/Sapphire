@@ -6,14 +6,14 @@ export const DefaultStyle = {
 
     themeName: 'sapphire',
 
-    bgColor: '#F6F3F4',
+    bgColor: '#FBFBFB',
 
-    primary: '#0F52BA',
+    primary: '#4C658B',
     /*primaryLight: '#424f77',*/
      primaryDark: '#161b2e',
 
-    secondary: '#1A1520',
-    tertiary: '#6A3E79',
+    secondary: '#272C38',
+    tertiary: '#6899AF',
     quaternary: '#F6F3F4',
 
     sectionPaddingTopBottom: '170px',

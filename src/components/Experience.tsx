@@ -14,8 +14,7 @@ export const Experience:FC<IProps> = (props) => {
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" key={item.id}>
                     <div className="resume-content">
                         <h6 className="sub-title">{item.subTitle}</h6>
-                        <h4 className="mb-0">{item.jobTitle}</h4>
-                        <div className="subheading mb-3">{item.company}</div>
+                        <h4 className="mb-4">{item.jobTitle} at {item.company}</h4>
                         <ul>
                             {item.role.map((i)=>
                             <li>{i}</li>
@@ -23,7 +22,7 @@ export const Experience:FC<IProps> = (props) => {
                         </ul>
                     </div>
                     <div className="resume-date text-md-right">
-                        <span className="text-primary">{item.startDate} - {item.endDate}</span>
+                        <p><i className="far fa-calendar-alt pr-2"></i> {item.startDate} - {item.endDate}</p>
                     </div>
                 </div>
             )}
