@@ -1,21 +1,21 @@
-import React,{FC} from "react";
+import React, {FC} from "react";
 import {skillList} from "../assets/content";
 
 interface IProps {
-    title:string;
+    title: string;
     subTitle: string;
     skill?: Array<any>;
 }
-export const Skill:FC<IProps> = (props) => {
-    return <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-        <div className="w-100">
-            <h2 className="mb-5">{props.title}</h2>
 
-            <div className="subheading mb-3">{props.subTitle}</div>
+export const Skill: FC<IProps> = (props) => {
+    return <section className="resume-section p-3 p-lg-5 d-flex align-items-center">
+        <div className="w-100">
+            <div className="sub-title mb-3">{props.subTitle}</div>
+            <h2 className="mb-5">{props.title}</h2>
             <ul className="list-inline dev-icons">
-                {skillList.map((item)=>
+                {skillList.map((item) =>
                     <>
-                        {item.list.map((i)=>
+                        {item.list.map((i) =>
                             <li className="list-inline-item">
                                 <i className={`fab ` + i.faIcon}></i>
                             </li>
@@ -26,9 +26,9 @@ export const Skill:FC<IProps> = (props) => {
 
             <div className="subheading mb-3">Description:</div>
             <ul className="fa-ul mb-0">
-                {skillList.map((item)=>
+                {skillList.map((item) =>
                     <>
-                        {item.description.map((i)=>
+                        {item.description.map((i) =>
                             <li>
                                 <i className={i.faIcon}></i>
                                 &nbsp;&nbsp;{i.title}.

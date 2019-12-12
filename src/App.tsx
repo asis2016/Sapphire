@@ -22,7 +22,7 @@ const App: FC<IProps> = (props) => {
 
     return <AppBase>
         <Router>
-            <Navigation img={"port-3.jpg"} name={"Sapphire Fowler"} />
+            <Navigation img={"port-3.jpg"} name={"Sapphire Fowler"}/>
 
             {/* About */}
             <Container className="p-0" fluid>
@@ -31,12 +31,19 @@ const App: FC<IProps> = (props) => {
                     <Route path="/skill">
                         <hr className="m-0"/>
                         <Skill title={"Skills"}
-                               subTitle={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."}/>
+                               subTitle={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."}/>
                     </Route>
                     {/* Experience */}
                     <Route path="/experience">
                         <hr className="m-0"/>
                         <Experience title={"Experience"}/>
+                    </Route>
+
+                    {/* Education */}
+                    <Route path="/education">
+                        <hr className="m-0"/>
+                        <Education title={"Education"}
+                                   subTitle={"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis."}/>
                     </Route>
                     <Route path="/">
                         {/* About */}
