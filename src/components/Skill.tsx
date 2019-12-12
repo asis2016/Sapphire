@@ -31,8 +31,10 @@ export const Skill: FC<IProps> = (props) => {
                                             <div className="progress-bar"
                                                  role="progressbar"
                                                  style={{width: i.percent}}
-                                                 aria-valuenow={35} aria-valuemin={0}
-                                                 aria-valuemax={100}></div>
+                                                 aria-valuemin={0}
+                                                 aria-valuemax={100}>
+                                                {i.percent}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
