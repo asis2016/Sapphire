@@ -12,31 +12,31 @@ export const Skill: FC<IProps> = (props) => {
         <div className="w-100">
             <div className="sub-title mb-3">{props.subTitle}</div>
             <h2 className="mb-5">{props.title}</h2>
-            <ul className="list-inline dev-icons">
+
+            <form>
                 {skillList.map((item) =>
                     <>
                         {item.list.map((i) =>
-                            <li className="list-inline-item">
-                                <i className={`fab ` + i.faIcon}></i>
-                            </li>
+                            <div className="form-group row">
+                                <div className="col-sm-2">
+                                    <label htmlFor="#">
+                                        <i className={`fab ` + i.faIcon}></i> <span className="pl-2">{i.title}</span>
+                                    </label>
+                                </div>
+                                <div className="col-sm-10">
+                                    <div className="progress">
+                                        <div className="progress-bar"
+                                             role="progressbar"
+                                             style={{width: i.percent}}
+                                             aria-valuenow={35} aria-valuemin={0}
+                                             aria-valuemax={100}></div>
+                                    </div>
+                                </div>
+                            </div>
                         )}
                     </>
                 )}
-            </ul>
-
-            <div className="subheading mb-3">Description:</div>
-            <ul className="fa-ul mb-0">
-                {skillList.map((item) =>
-                    <>
-                        {item.description.map((i) =>
-                            <li>
-                                <i className={i.faIcon}></i>
-                                &nbsp;&nbsp;{i.title}.
-                            </li>
-                        )}
-                    </>
-                )}
-            </ul>
+            </form>
         </div>
     </section>
-}
+};

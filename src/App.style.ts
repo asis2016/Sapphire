@@ -10,6 +10,7 @@ export const AppBase = styled.div<IProps>`
 padding-top: 54px;
 color: #868e96;
 background-color: ${DefaultStyle.secondary};
+font-family: ${DefaultStyle.secondaryFont};
 
 h1,
 h2,
@@ -46,7 +47,13 @@ p.lead {
 }
 
 .sub-title{
- font-family: ${DefaultStyle.subTitleFont};
+    font-family: ${DefaultStyle.subTitleFont};
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+label{
+    color: #fff;
 }
 
 .bg-primary {
@@ -130,6 +137,11 @@ section.resume-section .resume-item .resume-date {
 
 .card-text{
   font-family: ${DefaultStyle.secondaryFont};
+}
+
+/* Progress bar */
+.progress-bar{
+    background-color: ${DefaultStyle.primary};
 }
 
 @media (min-width: 768px) {
