@@ -13,6 +13,7 @@ import {Skill} from "./components/Skill";
 import {About} from "./components/About";
 import {socialDatas} from "./assets/content";
 import {Experience} from "./components/Experience";
+import {Project} from "./components/Project";
 
 interface IProps {
     id?: number;
@@ -33,6 +34,7 @@ const App: FC<IProps> = (props) => {
                         <Skill title={"Skills"}
                                subTitle={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."}/>
                     </Route>
+
                     {/* Experience */}
                     <Route path="/experience">
                         <hr className="m-0"/>
@@ -45,6 +47,13 @@ const App: FC<IProps> = (props) => {
                         <Education title={"Education"}
                                    subTitle={"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis."}/>
                     </Route>
+
+                    {/* Project */}
+                    <Route path="/project">
+                        <hr className="m-0"/>
+                        <Project title={"Projects"} subTitle={"Nam libero tempore, cum soluta nobis est eligendi."}/>
+                    </Route>
+
                     <Route path="/">
                         {/* About */}
                         <About firstName={"Sapphire"} lastName={"Fowler"}

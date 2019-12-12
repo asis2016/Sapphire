@@ -95,3 +95,48 @@ export const experienceList = [
         ],
     }
 ];
+
+export const educationList = [
+    {id: 0, university: 'University of California', startDate: 'March 2007', endDate: 'April 2009', gpa: 2.2, degree: 'Bachelors of Web Development'},
+    {id: 1, university: 'University of Berlin', startDate: 'July 2009', endDate: 'Jan 2013', gpa: 2, degree: 'Masters of Design and Mass Communication'},
+    {id: 2, university: 'T.U. University', startDate: 'Jan 2015', endDate: 'Jan 2017', gpa: 1.3, degree: 'MSc. Digital Media and Data Science'}
+];
+
+export const projectList = [
+    {
+        id: 0,
+        img: 'p-1.jpg',
+        title: 'Art  Workshop Berlin 2019',
+        content: 'Etiam lacinia mi ac dui imperdiet tristique.'
+    },
+    {
+        id: 0,
+        img: 'p-2.jpg',
+        title: 'Microsoft admin LTE solution',
+        content: 'Integer sit amet turpis viverra, convallis mi vitae, fermentum nisi.'
+    },
+    {
+        id: 0,
+        img: 'p-3.jpg',
+        title: 'Helping hand Kathmandu - 2016',
+        content: 'Mauris lobortis tellus sit amet metus rhoncus finibus.'
+    },
+    {
+        id: 0,
+        img: 'p-4.jpg',
+        title: 'Danish Waterlife Foundation',
+        content: 'Vivamus vitae nulla venenatis, malesuada ante vel, vestibulum elit.'
+    },
+    {
+        id: 0,
+        img: 'p-5.jpg',
+        title: 'Climate Change Act 2019',
+        content: 'Praesent ac mauris nec enim semper mattis sit amet et sem.'
+    },
+    {
+        id: 0,
+        img: 'p-6.jpg',
+        title: 'Spotify IOS',
+        content: 'Cras ut mi ultrices metus varius accumsan vitae fermentum nisl.'
+    },
+];

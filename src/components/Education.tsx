@@ -1,15 +1,10 @@
 import React, {FC} from "react"
+import {educationList} from "../assets/content";
 
 interface IProps {
     title: string;
     subTitle: string;
 };
-
-const educationList = [
-    {id: 0, university: 'University of California', startDate: 'March 2007', endDate: 'April 2009', gpa: 2.2, degree: 'Bachelors of Web Development'},
-    {id: 1, university: 'University of Berlin', startDate: 'July 2009', endDate: 'Jan 2013', gpa: 2, degree: 'Masters of Design and Mass Communication'},
-    {id: 2, university: 'T.U. University', startDate: 'Jan 2015', endDate: 'Jan 2017', gpa: 1.3, degree: 'MSc. Digital Media and Data Science'}
-]
 
 export const Education: FC<IProps> = (props) => {
     return <section className="resume-section p-3 p-lg-5 d-flex align-items-center">
@@ -31,4 +26,4 @@ export const Education: FC<IProps> = (props) => {
             )}
         </div>
     </section>
-}
+};

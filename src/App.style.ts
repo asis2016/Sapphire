@@ -19,7 +19,7 @@ h5,
 h6 {
   font-family: ${DefaultStyle.primaryFont};
   font-weight: 700;
-  color: ${DefaultStyle.quaternary};
+  color: #fff;
 }
 
 h1 {
@@ -91,7 +91,7 @@ a:hover, a:focus, a:active {
 section.resume-section {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
-    max-width: 75rem;
+    /*max-width: 75rem;*/
 }
 
 section.resume-section .resume-item .resume-date {
@@ -111,6 +111,25 @@ section.resume-section .resume-item .resume-date {
 
 #sideNav .navbar-toggler:focus {
     outline-color: #d48a6e;
+}
+
+/* Card */
+.card{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.card-body{
+  padding-left: 0;
+  color: #fff;
+}
+
+.card-title{
+  font-family: ${DefaultStyle.primaryFont};
+}
+
+.card-text{
+  font-family: ${DefaultStyle.secondaryFont};
 }
 
 @media (min-width: 768px) {
@@ -186,7 +205,5 @@ section.resume-section .resume-item .resume-date {
     }
 
 }
-    
-    
 
 `;
