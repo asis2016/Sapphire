@@ -2,7 +2,6 @@
  Sapphire is ReactJS Bootstrap 4 template for resume.
  
  ## Screenshot
-![Screenshot](/screenshot.png)
 
 ### Home
 ![Screenshot](/screenshots/home.png)
