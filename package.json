@@ -12,7 +12,10 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/react-transition-group": "^4.4.1",
     "@types/styled-components": "^4.4.3",
+    "@types/typescript": "^2.0.0",
     "bootstrap": "^4.6.0",
+    "browserlist": "^1.0.1",
+    "caniuse-lite": "^1.0.30001209",
     "prettier": "^2.2.1",
     "react": "^16.14.0",
     "react-bootstrap": "^1.5.2",
@@ -22,7 +25,7 @@
     "react-scripts": "3.2.0",
     "react-video-tag": "0.0.10",
     "styled-components": "^4.4.1",
-    "typescript": "3.7.2"
+    "typescript": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
