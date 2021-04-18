@@ -1,4 +1,5 @@
 {
+  "homepage": "https://asis2016.github.io/sapphire-react-bootstrap4",
   "name": "sapphire",
   "version": "1.0.0",
   "private": true,
@@ -32,7 +33,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write '**/*.{js,css,html}'"
+    "prettier": "prettier --write '**/*.{js,css,html}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -60,5 +63,7 @@
   "bugs": {
     "url": "https://github.com/asis2016/Sapphire-react-bs4/issues"
   },
-  "homepage": "https://github.com/asis2016/Sapphire-react-bs4#readme"
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
