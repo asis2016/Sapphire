@@ -1,5 +1,5 @@
 {
-  "name": "Sapphire",
+  "name": "sapphire",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@types/react-transition-group": "^4.2.3",
     "@types/styled-components": "^4.4.0",
     "bootstrap": "^4.4.0",
+    "prettier": "^2.2.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
@@ -27,7 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write '**/*.{js,css,html}'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,5 +45,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Sapphire is ReactJS Bootstrap 4 template for resume.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asis2016/Sapphire-react-bs4.git"
+  },
+  "author": "Ashish Singh Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asis2016/Sapphire-react-bs4/issues"
+  },
+  "homepage": "https://github.com/asis2016/Sapphire-react-bs4#readme"
 }
