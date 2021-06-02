@@ -1,5 +1,4 @@
 {
-  "homepage": "https://asis2016.github.io/sapphire-react-bootstrap4",
   "name": "sapphire",
   "version": "1.0.0",
   "private": true,
@@ -17,7 +16,6 @@
     "bootstrap": "^4.6.0",
     "browserlist": "^1.0.1",
     "caniuse-lite": "^1.0.30001209",
-    "prettier": "^2.2.1",
     "react": "^16.14.0",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^16.14.0",
@@ -53,7 +51,6 @@
     ]
   },
   "description": "Sapphire is ReactJS Bootstrap 4 template for resume.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asis2016/Sapphire-react-bs4.git"
@@ -64,6 +61,6 @@
     "url": "https://github.com/asis2016/Sapphire-react-bs4/issues"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "prettier": "2.2.1"
   }
 }
